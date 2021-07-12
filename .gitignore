@@ -1,7 +1,7 @@
 ./*/*/substrate/*
 !*.kicad_pcb
-!*.net
 !*.pro
 !*.sch
 !*.lib
 !*.md
+*.out
