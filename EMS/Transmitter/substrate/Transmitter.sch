@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x20_Female J1
+L Transmitter-rescue:Conn_01x20_Female-Connector J1
 U 1 1 60B0492F
 P 4350 3700
 F 0 "J1" H 4200 2600 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "~" H 4350 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x20_Female J2
+L Transmitter-rescue:Conn_01x20_Female-Connector J2
 U 1 1 60B063B8
 P 4650 3800
 F 0 "J2" H 4550 4800 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "~" H 4650 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x10_Female J3
+L Transmitter-rescue:Conn_01x10_Female-Connector J3
 U 1 1 60B0F59A
 P 6450 3200
 F 0 "J3" H 6300 2600 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 6450 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x10_Female J4
+L Transmitter-rescue:Conn_01x10_Female-Connector J4
 U 1 1 60B10C64
 P 6700 3200
 F 0 "J4" H 6600 2600 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "~" H 6700 3200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0101
+L Transmitter-rescue:+5V-power #PWR0101
 U 1 1 60B12616
 P 5950 2350
 F 0 "#PWR0101" H 5950 2200 50  0001 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 5950 2350 50  0001 C CNN
 $EndComp
 NoConn ~ 4850 2800
 $Comp
-L power:GND #PWR0102
+L Transmitter-rescue:GND-power #PWR0102
 U 1 1 60B3440B
 P 5950 5000
 F 0 "#PWR0102" H 5950 4750 50  0001 C CNN
@@ -94,8 +94,6 @@ NoConn ~ 4150 3500
 NoConn ~ 4150 3200
 NoConn ~ 4150 3100
 NoConn ~ 4150 3000
-NoConn ~ 4150 2900
-NoConn ~ 4150 2800
 NoConn ~ 4850 3000
 NoConn ~ 4850 3100
 NoConn ~ 4850 3300
@@ -126,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3600 6900 3600
 $Comp
-L Connector:Conn_01x02_Male J5
+L Transmitter-rescue:Conn_01x02_Male-Connector J5
 U 1 1 60C2BF9E
 P 2800 4450
 F 0 "J5" H 2908 4631 50  0000 C CNN
@@ -137,7 +135,7 @@ F 3 "~" H 2800 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR01
+L Transmitter-rescue:+5V-power #PWR01
 U 1 1 60C2C475
 P 3350 4300
 F 0 "#PWR01" H 3350 4150 50  0001 C CNN
@@ -148,7 +146,7 @@ F 3 "" H 3350 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L Transmitter-rescue:GND-power #PWR02
 U 1 1 60C2CC2C
 P 3350 4700
 F 0 "#PWR02" H 3350 4450 50  0001 C CNN
@@ -171,7 +169,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 3600 6250 3600
 $Comp
-L Connector:Conn_01x02_Male J6
+L Transmitter-rescue:Conn_01x02_Male-Connector J6
 U 1 1 60B16252
 P 7400 4100
 F 0 "J6" H 7372 4074 50  0000 R CNN
@@ -190,18 +188,8 @@ NoConn ~ 4850 3900
 NoConn ~ 4850 3700
 NoConn ~ 4150 4300
 NoConn ~ 4150 4400
-Text Notes 4800 4700 0    50   ~ 0
-TX
-Text Notes 4800 4600 0    50   ~ 0
-RX
 Wire Wire Line
 	5150 3200 5150 3600
-Wire Wire Line
-	4850 4700 7050 4700
-Wire Wire Line
-	6150 3100 6150 4600
-Wire Wire Line
-	4850 4600 6150 4600
 Wire Wire Line
 	4850 4400 6050 4400
 Wire Wire Line
@@ -220,10 +208,8 @@ Wire Wire Line
 	4850 4100 7200 4100
 Wire Wire Line
 	4850 4200 7200 4200
-Wire Wire Line
-	7050 4700 7050 3000
 $Comp
-L Switch:SW_SPDT SW1
+L Transmitter-rescue:SW_SPDT-Switch SW1
 U 1 1 60B2577F
 P 5450 2900
 F 0 "SW1" H 5450 3185 50  0000 C CNN
@@ -239,7 +225,7 @@ Wire Wire Line
 	5950 2350 5950 3000
 NoConn ~ 5650 2800
 $Comp
-L Connector:Conn_01x04_Male J7
+L Transmitter-rescue:Conn_01x04_Male-Connector J7
 U 1 1 60B4044F
 P 3550 3300
 F 0 "J7" H 3658 3581 50  0000 C CNN
@@ -282,4 +268,22 @@ Wire Wire Line
 	3900 3500 3900 4850
 Wire Wire Line
 	3900 4850 4950 4850
+Wire Wire Line
+	7050 3000 7050 2450
+Wire Wire Line
+	7050 2450 4100 2450
+Wire Wire Line
+	4100 2450 4100 2800
+Wire Wire Line
+	4100 2800 4150 2800
+Wire Wire Line
+	4150 2900 4050 2900
+Wire Wire Line
+	4050 2900 4050 2500
+Wire Wire Line
+	4050 2500 6150 2500
+Wire Wire Line
+	6150 2500 6150 3100
+NoConn ~ 4850 4600
+NoConn ~ 4850 4700
 $EndSCHEMATC

@@ -14,18 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x15_Female J2
-U 1 1 60AEFA8A
-P 4750 3050
-F 0 "J2" H 4600 2250 50  0000 C CNN
-F 1 "F303k8_Right" H 4550 3900 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 4750 3050 50  0001 C CNN
-F 3 "~" H 4750 3050 50  0001 C CNN
-	1    4750 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
+L Receiver-rescue:GND-power #PWR0101
 U 1 1 60AF1801
 P 2800 4900
 F 0 "#PWR0101" H 2800 4650 50  0001 C CNN
@@ -36,18 +25,7 @@ F 3 "" H 2800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x15_Female J1
-U 1 1 60AEE444
-P 4550 3050
-F 0 "J1" H 4350 2250 50  0000 L CNN
-F 1 "F303k8_Left" H 4200 3900 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 4550 3050 50  0001 C CNN
-F 3 "~" H 4550 3050 50  0001 C CNN
-	1    4550 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x10_Female J3
+L Receiver-rescue:Conn_01x10_Female-Connector J3
 U 1 1 60B01E56
 P 7550 2850
 F 0 "J3" H 7400 2300 50  0000 L CNN
@@ -58,7 +36,7 @@ F 3 "~" H 7550 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x10_Female J4
+L Receiver-rescue:Conn_01x10_Female-Connector J4
 U 1 1 60B038BF
 P 7750 2850
 F 0 "J4" H 7650 2300 50  0000 C CNN
@@ -75,7 +53,7 @@ NoConn ~ 7950 2950
 Wire Wire Line
 	7950 3250 8150 3250
 $Comp
-L Connector:Conn_01x02_Male J5
+L Receiver-rescue:Conn_01x02_Male-Connector J5
 U 1 1 60B39C1D
 P 2100 4650
 F 0 "J5" H 2200 4900 50  0000 C CNN
@@ -106,7 +84,7 @@ Wire Wire Line
 Text Notes 4950 3250 0    50   ~ 0
 RX
 $Comp
-L Connector:Conn_01x02_Male J7
+L Receiver-rescue:Conn_01x02_Male-Connector J7
 U 1 1 60B5D24A
 P 3000 3450
 F 0 "J7" H 3100 3650 50  0000 C CNN
@@ -129,7 +107,7 @@ CAN_RD
 Text Notes 4100 2750 0    50   ~ 0
 CAN_TD
 $Comp
-L Isolator:LTV-817 U1
+L Receiver-rescue:LTV-817-Isolator U1
 U 1 1 60AF1260
 P 6400 3200
 F 0 "U1" H 6400 3000 50  0000 C CNN
@@ -139,10 +117,8 @@ F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 6400 3100 50  000
 	1    6400 3200
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	8150 2250 8150 2650
 $Comp
-L Device:LED D1
+L Receiver-rescue:LED-Device D1
 U 1 1 60B360E0
 P 6700 3850
 F 0 "D1" H 6700 3950 50  0000 C CNN
@@ -153,7 +129,7 @@ F 3 "~" H 6700 3850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPDT SW1
+L Receiver-rescue:SW_SPDT-Switch SW1
 U 1 1 60B49C25
 P 7250 3950
 F 0 "SW1" H 7250 4235 50  0000 C CNN
@@ -168,7 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 3850 7050 3850
 $Comp
-L Device:LED D2
+L Receiver-rescue:LED-Device D2
 U 1 1 60B97B28
 P 6700 4050
 F 0 "D2" H 6700 3950 50  0000 C CNN
@@ -185,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 4050 6300 4050
 $Comp
-L Connector:Conn_01x02_Male J6
+L Receiver-rescue:Conn_01x02_Male-Connector J6
 U 1 1 60BC7FBD
 P 8500 3950
 F 0 "J6" H 8600 3800 50  0000 R CNN
@@ -216,21 +192,6 @@ Wire Wire Line
 Connection ~ 8150 3600
 Wire Wire Line
 	8300 3950 7450 3950
-$Comp
-L Connector:Conn_01x02_Male J9
-U 1 1 60CFA959
-P 3000 2350
-F 0 "J9" H 3100 2550 50  0000 C CNN
-F 1 "UART" H 3100 2450 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 3000 2350 50  0001 C CNN
-F 3 "~" H 3000 2350 50  0001 C CNN
-	1    3000 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 2350 4350 2350
-Wire Wire Line
-	4350 2450 3200 2450
 NoConn ~ 4950 2750
 NoConn ~ 4350 2850
 NoConn ~ 4350 3150
@@ -257,7 +218,7 @@ Connection ~ 5950 4850
 Wire Wire Line
 	5950 4850 5950 5000
 $Comp
-L power:GND #PWR0102
+L Receiver-rescue:GND-power #PWR0102
 U 1 1 60AFF5CE
 P 5950 5000
 F 0 "#PWR0102" H 5950 4750 50  0001 C CNN
@@ -277,7 +238,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4050 8300 4050
 $Comp
-L Connector:Conn_01x02_Male J8
+L Receiver-rescue:Conn_01x02_Male-Connector J8
 U 1 1 60CEE284
 P 3000 2950
 F 0 "J8" H 3108 3131 50  0000 C CNN
@@ -304,7 +265,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3450 4000 3450
 $Comp
-L power:+5V #PWR0103
+L Receiver-rescue:+5V-power #PWR0103
 U 1 1 60B37161
 P 5750 1550
 F 0 "#PWR0103" H 5750 1400 50  0001 C CNN
@@ -315,7 +276,7 @@ F 3 "" H 5750 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0104
+L Receiver-rescue:+5V-power #PWR0104
 U 1 1 60B5796E
 P 2800 4500
 F 0 "#PWR0104" H 2800 4350 50  0001 C CNN
@@ -335,7 +296,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3050 4350 3050
 $Comp
-L Connector:Conn_01x02_Male J10
+L Receiver-rescue:Conn_01x02_Male-Connector J10
 U 1 1 60B21E10
 P 8500 4450
 F 0 "J10" H 8600 4300 50  0000 R CNN
@@ -366,30 +327,60 @@ Wire Wire Line
 Wire Wire Line
 	7500 4050 7500 4200
 Wire Wire Line
-	4950 3750 5200 3750
-Wire Wire Line
-	4950 3250 5300 3250
-Wire Wire Line
 	5100 2450 5100 4850
 Connection ~ 5100 4850
 Wire Wire Line
 	5100 4850 5950 4850
 Wire Wire Line
-	5300 3250 5300 2750
-Wire Wire Line
-	5300 2750 7350 2750
-Wire Wire Line
-	4950 3450 5400 3450
-Wire Wire Line
-	5200 2250 5200 3750
-Wire Wire Line
-	5200 2250 8150 2250
-Wire Wire Line
-	5400 2450 5400 3450
-Wire Wire Line
-	5400 2450 7350 2450
-Wire Wire Line
 	4950 2650 5750 2650
 Wire Wire Line
 	5750 1550 5750 2650
+Wire Wire Line
+	4150 2350 4150 2050
+Wire Wire Line
+	4150 2050 8150 2050
+Wire Wire Line
+	4150 2350 4350 2350
+Wire Wire Line
+	8150 2050 8150 2650
+Wire Wire Line
+	4350 2450 3850 2450
+Wire Wire Line
+	3850 2450 3850 1900
+Wire Wire Line
+	3850 1900 6800 1900
+Wire Wire Line
+	6800 1900 6800 2750
+Wire Wire Line
+	6800 2750 7350 2750
+NoConn ~ 4950 3450
+NoConn ~ 4950 3250
+Wire Wire Line
+	7350 2450 5250 2450
+Wire Wire Line
+	5250 2450 5250 3750
+Wire Wire Line
+	5250 3750 4950 3750
+$Comp
+L Receiver-rescue:Conn_01x15_Female-Connector J2
+U 1 1 60AEFA8A
+P 4750 3050
+F 0 "J2" H 4600 2250 50  0000 C CNN
+F 1 "F303k8_Right" H 4550 3900 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 4750 3050 50  0001 C CNN
+F 3 "~" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Receiver-rescue:Conn_01x15_Female-Connector J1
+U 1 1 60AEE444
+P 4550 3050
+F 0 "J1" H 4350 2250 50  0000 L CNN
+F 1 "F303k8_Left" H 4200 3900 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 4550 3050 50  0001 C CNN
+F 3 "~" H 4550 3050 50  0001 C CNN
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
