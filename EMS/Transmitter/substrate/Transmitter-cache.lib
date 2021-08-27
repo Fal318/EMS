@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Transmitter-rescue_+5V-power
+# Transmitter-rescue_+5V-power-Transmitter-rescue
 #
-DEF Transmitter-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF Transmitter-rescue_+5V-power-Transmitter-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Transmitter-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "Transmitter-rescue_+5V-power-Transmitter-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_Conn_01x02_Male-Connector
+# Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue
 #
-DEF Transmitter-rescue_Conn_01x02_Male-Connector J 0 40 Y N 1 F N
+DEF Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Transmitter-rescue_Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
+F1 "Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -36,11 +36,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_Conn_01x04_Male-Connector
+# Transmitter-rescue_Conn_01x04_Male-Connector-Transmitter-rescue
 #
-DEF Transmitter-rescue_Conn_01x04_Male-Connector J 0 40 Y N 1 F N
+DEF Transmitter-rescue_Conn_01x04_Male-Connector-Transmitter-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Transmitter-rescue_Conn_01x04_Male-Connector" 0 -300 50 H V C CNN
+F1 "Transmitter-rescue_Conn_01x04_Male-Connector-Transmitter-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -62,11 +62,11 @@ X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_Conn_01x10_Female-Connector
+# Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue
 #
-DEF Transmitter-rescue_Conn_01x10_Female-Connector J 0 40 Y N 1 F N
+DEF Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Transmitter-rescue_Conn_01x10_Female-Connector" 0 -600 50 H V C CNN
+F1 "Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -106,11 +106,11 @@ X Pin_9 9 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_Conn_01x20_Female-Connector
+# Transmitter-rescue_Conn_01x20_Female-Connector-Transmitter-rescue
 #
-DEF Transmitter-rescue_Conn_01x20_Female-Connector J 0 40 Y N 1 F N
+DEF Transmitter-rescue_Conn_01x20_Female-Connector-Transmitter-rescue J 0 40 Y N 1 F N
 F0 "J" 0 1000 50 H V C CNN
-F1 "Transmitter-rescue_Conn_01x20_Female-Connector" 0 -1100 50 H V C CNN
+F1 "Transmitter-rescue_Conn_01x20_Female-Connector-Transmitter-rescue" 0 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -180,11 +180,11 @@ X Pin_9 9 -200 100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_GND-power
+# Transmitter-rescue_GND-power-Transmitter-rescue
 #
-DEF Transmitter-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF Transmitter-rescue_GND-power-Transmitter-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Transmitter-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "Transmitter-rescue_GND-power-Transmitter-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -193,11 +193,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_SW_SPDT-Switch
+# Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue
 #
-DEF Transmitter-rescue_SW_SPDT-Switch SW 0 0 Y N 1 F N
+DEF Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Transmitter-rescue_SW_SPDT-Switch" 0 -200 50 H V C CNN
+F1 "Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

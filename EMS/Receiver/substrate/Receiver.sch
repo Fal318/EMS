@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Receiver-rescue:GND-power #PWR0101
+L Receiver-rescue:GND-power-Receiver-rescue #PWR0101
 U 1 1 60AF1801
 P 2800 4900
 F 0 "#PWR0101" H 2800 4650 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 2800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:Conn_01x10_Female-Connector J3
+L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue J3
 U 1 1 60B01E56
 P 7550 2850
 F 0 "J3" H 7400 2300 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "~" H 7550 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:Conn_01x10_Female-Connector J4
+L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue J4
 U 1 1 60B038BF
 P 7750 2850
 F 0 "J4" H 7650 2300 50  0000 C CNN
@@ -53,7 +53,7 @@ NoConn ~ 7950 2950
 Wire Wire Line
 	7950 3250 8150 3250
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector J5
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue J5
 U 1 1 60B39C1D
 P 2100 4650
 F 0 "J5" H 2200 4900 50  0000 C CNN
@@ -84,7 +84,7 @@ Wire Wire Line
 Text Notes 4950 3250 0    50   ~ 0
 RX
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector J7
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue J7
 U 1 1 60B5D24A
 P 3000 3450
 F 0 "J7" H 3100 3650 50  0000 C CNN
@@ -107,7 +107,7 @@ CAN_RD
 Text Notes 4100 2750 0    50   ~ 0
 CAN_TD
 $Comp
-L Receiver-rescue:LTV-817-Isolator U1
+L Receiver-rescue:LTV-817-Isolator-Receiver-rescue U1
 U 1 1 60AF1260
 P 6400 3200
 F 0 "U1" H 6400 3000 50  0000 C CNN
@@ -118,7 +118,7 @@ F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 6400 3100 50  000
 	0    -1   1    0   
 $EndComp
 $Comp
-L Receiver-rescue:LED-Device D1
+L Receiver-rescue:LED-Device-Receiver-rescue D1
 U 1 1 60B360E0
 P 6700 3850
 F 0 "D1" H 6700 3950 50  0000 C CNN
@@ -129,12 +129,12 @@ F 3 "~" H 6700 3850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:SW_SPDT-Switch SW1
+L Receiver-rescue:SW_SPDT-Switch-Receiver-rescue SW1
 U 1 1 60B49C25
 P 7250 3950
 F 0 "SW1" H 7250 4235 50  0000 C CNN
 F 1 "SW_SPDT" H 7250 4144 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 7250 3950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7250 3950 50  0001 C CNN
 F 3 "~" H 7250 3950 50  0001 C CNN
 	1    7250 3950
 	-1   0    0    -1  
@@ -144,7 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 3850 7050 3850
 $Comp
-L Receiver-rescue:LED-Device D2
+L Receiver-rescue:LED-Device-Receiver-rescue D2
 U 1 1 60B97B28
 P 6700 4050
 F 0 "D2" H 6700 3950 50  0000 C CNN
@@ -161,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 4050 6300 4050
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector J6
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue J6
 U 1 1 60BC7FBD
 P 8500 3950
 F 0 "J6" H 8600 3800 50  0000 R CNN
@@ -218,7 +218,7 @@ Connection ~ 5950 4850
 Wire Wire Line
 	5950 4850 5950 5000
 $Comp
-L Receiver-rescue:GND-power #PWR0102
+L Receiver-rescue:GND-power-Receiver-rescue #PWR0102
 U 1 1 60AFF5CE
 P 5950 5000
 F 0 "#PWR0102" H 5950 4750 50  0001 C CNN
@@ -238,7 +238,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 4050 8300 4050
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector J8
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue J8
 U 1 1 60CEE284
 P 3000 2950
 F 0 "J8" H 3108 3131 50  0000 C CNN
@@ -265,7 +265,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3450 4000 3450
 $Comp
-L Receiver-rescue:+5V-power #PWR0103
+L Receiver-rescue:+5V-power-Receiver-rescue #PWR0103
 U 1 1 60B37161
 P 5750 1550
 F 0 "#PWR0103" H 5750 1400 50  0001 C CNN
@@ -276,7 +276,7 @@ F 3 "" H 5750 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:+5V-power #PWR0104
+L Receiver-rescue:+5V-power-Receiver-rescue #PWR0104
 U 1 1 60B5796E
 P 2800 4500
 F 0 "#PWR0104" H 2800 4350 50  0001 C CNN
@@ -296,7 +296,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3050 4350 3050
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector J10
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue J10
 U 1 1 60B21E10
 P 8500 4450
 F 0 "J10" H 8600 4300 50  0000 R CNN
@@ -362,7 +362,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3750 4950 3750
 $Comp
-L Receiver-rescue:Conn_01x15_Female-Connector J2
+L Receiver-rescue:Conn_01x15_Female-Connector-Receiver-rescue J2
 U 1 1 60AEFA8A
 P 4750 3050
 F 0 "J2" H 4600 2250 50  0000 C CNN
@@ -373,7 +373,7 @@ F 3 "~" H 4750 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:Conn_01x15_Female-Connector J1
+L Receiver-rescue:Conn_01x15_Female-Connector-Receiver-rescue J1
 U 1 1 60AEE444
 P 4550 3050
 F 0 "J1" H 4350 2250 50  0000 L CNN
