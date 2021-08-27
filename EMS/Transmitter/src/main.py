@@ -8,8 +8,8 @@ ems = {
 }
 
 ems["out"].value(1)
-#uart0 = UART(1)
-uart0 = UART(0, 19200)
+uart0 = UART(1, 19200)
+#uart0 = UART(0, 19200)
 
 
 def main(timer):
