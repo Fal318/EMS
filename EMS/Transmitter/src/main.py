@@ -8,17 +8,19 @@ ems = {
 }
 
 ems["out"].value(1)
-uart0 = UART(1)
+#uart0 = UART(1)
+uart0 = UART(0, 19200)
 
 
 def main(timer):
     global led, ems
     if ems["in"].value():
-        uart0.write(b"TXDT 1\r\n")
+        uart0.write("TXDT FF\r\n")
         led.value(1)
     else:
-        uart0.write(b"TXDT 0\r\n")
+        uart0.write("TXDT 00\r\n")
         led.value(0)
+    uart0.readline()
 
 
 tim = Timer()
