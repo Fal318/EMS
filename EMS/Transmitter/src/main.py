@@ -1,27 +1,37 @@
 from machine import Pin, UART, Timer
 
-led = Pin(25, Pin.OUT)
 
+class IM920:
+    def __init__(self, id_: int, bandrate: int = 19200) -> None:
+        self.__uart = UART(id_, bandrate)
+
+    def send(self, chr: str) -> bool:
+        self.__uart.write(f"TXDT {chr}\r\n")
+        return True
+
+    def read(self) -> list:
+        data = self.__uart.readline().strip("\r\n").split(":")
+        return [*data[0].split(","), data[1]]
+
+
+led = Pin(25, Pin.OUT)
 ems = {
     "in": Pin(21, Pin.IN, Pin.PULL_DOWN),
     "out": Pin(20, Pin.OUT)
 }
-
 ems["out"].value(1)
-uart0 = UART(1, 19200)
-#uart0 = UART(0, 19200)
+im920 = IM920(1, 9600)
 
 
-def main(timer):
+def com(timer):
     global led, ems
     if ems["in"].value():
-        uart0.write("TXDT FF\r\n")
+        im920.send("TXDT FF\r\n")
         led.value(1)
     else:
-        uart0.write("TXDT 00\r\n")
+        im920.send("TXDT 00\r\n")
         led.value(0)
-    uart0.readline()
+    im920.read()
 
 
-tim = Timer()
-tim.init(freq=1, mode=Timer.PERIODIC, callback=main)
+Timer().init(freq=1, mode=Timer.PERIODIC, callback=com)
