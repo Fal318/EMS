@@ -1,0 +1,9 @@
+||個数|リンク|
+|:-:|:-:|:-:|
+|SW|1|https://www.linkman.jp/user/shohin.php?p=63342|
+|XH_2_A|6||
+|Pin_Soc_1x10|2||
+|Pin_Soc_1x15|2||
+|LED|1|https://akizukidenshi.com/catalog/g/gI-06251/|
+|LED|1|https://akizukidenshi.com/catalog/g/gI-06250/|
+|LTV-817|1|https://akizukidenshi.com/catalog/g/gI-11964/|
