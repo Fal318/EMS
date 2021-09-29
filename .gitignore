@@ -1,4 +1,5 @@
 ./*/*/substrate/*
+.vscode
 !*.kicad_pcb
 !*.pro
 !*.sch
