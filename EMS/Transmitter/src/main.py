@@ -23,4 +23,4 @@ def main(timer):
 
 
 tim = Timer()
-tim.init(freq=1.5, mode=Timer.PERIODIC, callback=main)
+tim.init(freq=1, mode=Timer.PERIODIC, callback=main)
