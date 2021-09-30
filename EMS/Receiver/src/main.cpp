@@ -1,5 +1,4 @@
 #include "IM920/im920.h"
-#include "UnbufferedSerial.h"
 #include "mbed.h"
 
 DigitalOut myled(LED1);
@@ -9,13 +8,9 @@ UnbufferedSerial pc(USBTX, USBRX);
 
 int main()
 {
-  uint8_t lastData = false;
+  uint8_t lastData = 0;
   while (true)
   {
-    while (!im920.isReadAble())
-    {
-      ThisThread::sleep_for(chrono::milliseconds(50));
-    }
     Im920Output readVal = im920.recv();
     if (readVal.isSuccess && (readVal.data[0] == 255 || lastData == 255))
     {
@@ -28,5 +23,6 @@ int main()
       myled = 0;
     }
     lastData = readVal.data[0];
+    ThisThread::sleep_for(chrono::milliseconds(50));
   }
 }
