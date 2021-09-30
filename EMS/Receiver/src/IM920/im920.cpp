@@ -1,5 +1,6 @@
 #include "./im920.h"
 #include "mbed.h"
+#include <cstdio>
 #include <cstring>
 
 Im920::Im920(PinName tx, PinName rx, int baud) : _im920(tx, rx)
