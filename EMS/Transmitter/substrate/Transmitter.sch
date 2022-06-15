@@ -14,276 +14,355 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transmitter-rescue:Conn_01x20_Female-Connector-Transmitter-rescue J1
-U 1 1 60B0492F
-P 4350 3700
-F 0 "J1" H 4200 2600 50  0000 L CNN
-F 1 "Pico_Left" H 4100 2500 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" H 4350 3700 50  0001 C CNN
-F 3 "~" H 4350 3700 50  0001 C CNN
-	1    4350 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transmitter-rescue:Conn_01x20_Female-Connector-Transmitter-rescue J2
-U 1 1 60B063B8
-P 4650 3800
-F 0 "J2" H 4550 4800 50  0000 C CNN
-F 1 "Pico_Right" H 4600 4900 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" H 4650 3800 50  0001 C CNN
-F 3 "~" H 4650 3800 50  0001 C CNN
-	1    4650 3800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue J3
+L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue J3
 U 1 1 60B0F59A
-P 6450 3200
-F 0 "J3" H 6300 2600 50  0000 L CNN
-F 1 "ADP_Left" H 6150 2500 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 6450 3200 50  0001 C CNN
-F 3 "~" H 6450 3200 50  0001 C CNN
-	1    6450 3200
+P 6600 3850
+F 0 "J3" H 6450 3250 50  0000 L CNN
+F 1 "ADP_L" H 6300 3150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 6600 3850 50  0001 C CNN
+F 3 "~" H 6600 3850 50  0001 C CNN
+	1    6600 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue J4
+L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue J4
 U 1 1 60B10C64
-P 6700 3200
-F 0 "J4" H 6600 2600 50  0000 C CNN
-F 1 "ADP_Right" H 6650 2500 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 6700 3200 50  0001 C CNN
-F 3 "~" H 6700 3200 50  0001 C CNN
-	1    6700 3200
+P 6700 3850
+F 0 "J4" H 6600 3250 50  0000 C CNN
+F 1 "ADP_R" H 6600 3150 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 6700 3850 50  0001 C CNN
+F 3 "~" H 6700 3850 50  0001 C CNN
+	1    6700 3850
 	-1   0    0    -1  
 $EndComp
+NoConn ~ 6400 4150
+NoConn ~ 6400 4050
+NoConn ~ 6400 3950
+NoConn ~ 6400 3850
+NoConn ~ 6400 3650
+NoConn ~ 6400 3550
+NoConn ~ 6900 3450
+NoConn ~ 6900 3550
+NoConn ~ 6900 3750
+NoConn ~ 6900 3850
+NoConn ~ 6900 3950
+NoConn ~ 6900 4050
+NoConn ~ 6900 4150
+NoConn ~ 6900 4350
 $Comp
-L Transmitter-rescue:+5V-power-Transmitter-rescue #PWR0101
-U 1 1 60B12616
-P 5950 2350
-F 0 "#PWR0101" H 5950 2200 50  0001 C CNN
-F 1 "+5V" H 5965 2523 50  0000 C CNN
-F 2 "" H 5950 2350 50  0001 C CNN
-F 3 "" H 5950 2350 50  0001 C CNN
-	1    5950 2350
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4850 2800
-$Comp
-L Transmitter-rescue:GND-power-Transmitter-rescue #PWR0102
-U 1 1 60B3440B
-P 5950 5000
-F 0 "#PWR0102" H 5950 4750 50  0001 C CNN
-F 1 "GND" H 5955 4827 50  0000 C CNN
-F 2 "" H 5950 5000 50  0001 C CNN
-F 3 "" H 5950 5000 50  0001 C CNN
-	1    5950 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 3000 7050 3000
-Wire Wire Line
-	4850 3200 5150 3200
-NoConn ~ 4150 4700
-NoConn ~ 4150 4600
-NoConn ~ 4150 4500
-NoConn ~ 4150 4200
-NoConn ~ 4150 4100
-NoConn ~ 4150 4000
-NoConn ~ 4150 3500
-NoConn ~ 4150 3200
-NoConn ~ 4150 3100
-NoConn ~ 4150 3000
-NoConn ~ 4850 3000
-NoConn ~ 4850 3100
-NoConn ~ 4850 3300
-NoConn ~ 4850 3400
-NoConn ~ 4850 3800
-NoConn ~ 4850 4000
-NoConn ~ 6250 3500
-NoConn ~ 6250 3400
-NoConn ~ 6250 3300
-NoConn ~ 6250 3200
-NoConn ~ 6250 3000
-NoConn ~ 6250 2900
-NoConn ~ 6900 2800
-NoConn ~ 6900 2900
-NoConn ~ 6900 3100
-NoConn ~ 6900 3200
-NoConn ~ 6900 3300
-NoConn ~ 6900 3400
-NoConn ~ 6900 3500
-NoConn ~ 6900 3700
-Wire Wire Line
-	5950 4850 5950 5000
-Connection ~ 5950 4850
-Wire Wire Line
-	6950 3600 6950 4850
-Wire Wire Line
-	5950 4850 6950 4850
-Wire Wire Line
-	6950 3600 6900 3600
-$Comp
-L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue J5
+L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue J5
 U 1 1 60C2BF9E
-P 2800 4450
-F 0 "J5" H 2908 4631 50  0000 C CNN
-F 1 "POWER" H 2908 4540 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 2800 4450 50  0001 C CNN
-F 3 "~" H 2800 4450 50  0001 C CNN
-	1    2800 4450
+P 6800 4900
+F 0 "J5" H 6908 5081 50  0000 C CNN
+F 1 "POWER" H 6908 4990 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 6800 4900 50  0001 C CNN
+F 3 "~" H 6800 4900 50  0001 C CNN
+	1    6800 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:+5V-power-Transmitter-rescue #PWR01
+L Transmitter-rescue:+5V-power-Transmitter-rescue-Transmitter-rescue #PWR01
 U 1 1 60C2C475
-P 3350 4300
-F 0 "#PWR01" H 3350 4150 50  0001 C CNN
-F 1 "+5V" H 3365 4473 50  0000 C CNN
-F 2 "" H 3350 4300 50  0001 C CNN
-F 3 "" H 3350 4300 50  0001 C CNN
-	1    3350 4300
+P 6950 5450
+F 0 "#PWR01" H 6950 5300 50  0001 C CNN
+F 1 "+5V" H 6850 5550 50  0000 C CNN
+F 2 "" H 6950 5450 50  0001 C CNN
+F 3 "" H 6950 5450 50  0001 C CNN
+	1    6950 5450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:GND-power-Transmitter-rescue #PWR02
+L Transmitter-rescue:GND-power-Transmitter-rescue-Transmitter-rescue #PWR02
 U 1 1 60C2CC2C
-P 3350 4700
-F 0 "#PWR02" H 3350 4450 50  0001 C CNN
-F 1 "GND" H 3355 4527 50  0000 C CNN
-F 2 "" H 3350 4700 50  0001 C CNN
-F 3 "" H 3350 4700 50  0001 C CNN
-	1    3350 4700
+P 7100 5100
+F 0 "#PWR02" H 7100 4850 50  0001 C CNN
+F 1 "GND" H 6950 5050 50  0000 C CNN
+F 2 "" H 7100 5100 50  0001 C CNN
+F 3 "" H 7100 5100 50  0001 C CNN
+	1    7100 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 4450 3350 4450
+	6850 5600 6950 5600
 Wire Wire Line
-	3350 4450 3350 4300
+	6950 5600 6950 5450
 Wire Wire Line
-	3000 4550 3350 4550
-Wire Wire Line
-	3350 4550 3350 4700
-Wire Wire Line
-	4850 2900 5250 2900
-Wire Wire Line
-	5150 3600 6250 3600
+	7000 5000 7100 5000
 $Comp
-L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue J6
+L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue J6
 U 1 1 60B16252
-P 7400 4100
-F 0 "J6" H 7372 4074 50  0000 R CNN
-F 1 "EMS_IN" H 7372 3983 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 7400 4100 50  0001 C CNN
-F 3 "~" H 7400 4100 50  0001 C CNN
-	1    7400 4100
-	-1   0    0    -1  
+P 6050 4900
+F 0 "J6" H 6200 4700 50  0000 R CNN
+F 1 "ESS_IN" H 6300 4600 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 6050 4900 50  0001 C CNN
+F 3 "~" H 6050 4900 50  0001 C CNN
+	1    6050 4900
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 3100 6250 3100
-Wire Wire Line
-	6050 2800 6250 2800
-NoConn ~ 4850 3600
-NoConn ~ 4850 3900
-NoConn ~ 4850 3700
-NoConn ~ 4150 4300
-NoConn ~ 4150 4400
-Wire Wire Line
-	5150 3200 5150 3600
-Wire Wire Line
-	4850 4400 6050 4400
-Wire Wire Line
-	6050 4400 6050 2800
-Wire Wire Line
-	4850 4300 5950 4300
-Wire Wire Line
-	5950 4300 5950 3700
-Wire Wire Line
-	5950 3700 6250 3700
-NoConn ~ 4150 3600
-NoConn ~ 4150 3700
-NoConn ~ 4150 3800
-NoConn ~ 4150 3900
-Wire Wire Line
-	4850 4100 7200 4100
-Wire Wire Line
-	4850 4200 7200 4200
 $Comp
-L Transmitter-rescue:SW_SPDT-Switch-Transmitter-rescue SW1
+L Transmitter-rescue:SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue SW1
 U 1 1 60B2577F
-P 5450 2900
-F 0 "SW1" H 5450 3185 50  0000 C CNN
-F 1 "SW_SPDT" H 5450 3094 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" H 5450 2900 50  0001 C CNN
-F 3 "~" H 5450 2900 50  0001 C CNN
-	1    5450 2900
+P 6650 5700
+F 0 "SW1" H 6650 5985 50  0000 C CNN
+F 1 "SW_SPDT" H 6650 5894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" H 6650 5700 50  0001 C CNN
+F 3 "~" H 6650 5700 50  0001 C CNN
+	1    6650 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5650 3000 5950 3000
-Wire Wire Line
-	5950 2350 5950 3000
-NoConn ~ 5650 2800
 $Comp
-L Transmitter-rescue:Conn_01x04_Male-Connector-Transmitter-rescue J7
-U 1 1 60B4044F
-P 3550 3300
-F 0 "J7" H 3658 3581 50  0000 C CNN
-F 1 "I2C" H 3658 3490 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 3550 3300 50  0001 C CNN
-F 3 "~" H 3550 3300 50  0001 C CNN
-	1    3550 3300
+L Seeeduino_XIAO:SeeeduinoXIAO U1
+U 1 1 62AA14C1
+P 4700 4150
+F 0 "U1" H 4675 3211 50  0000 C CNN
+F 1 "SeeeduinoXIAO" H 4675 3120 50  0000 C CNN
+F 2 "Seeeduino XIAO KICAD:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM" H 4350 4350 50  0001 C CNN
+F 3 "" H 4350 4350 50  0001 C CNN
+	1    4700 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4600 5000
+NoConn ~ 4800 5000
+$Comp
+L power:GND #PWR0101
+U 1 1 62AA8931
+P 7000 4350
+F 0 "#PWR0101" H 7000 4100 50  0001 C CNN
+F 1 "GND" H 7005 4177 50  0000 C CNN
+F 2 "" H 7000 4350 50  0001 C CNN
+F 3 "" H 7000 4350 50  0001 C CNN
+	1    7000 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 3400 3750 3400
+	6900 4250 7000 4250
 Wire Wire Line
-	5150 3200 5150 2600
+	7000 4250 7000 4350
+Text Notes 6950 3600 0    50   ~ 0
+RxD
+Text Notes 6250 3400 0    50   ~ 0
+RTS
+Text Notes 6250 3700 0    50   ~ 0
+TxD
+Text Notes 6250 4350 0    50   ~ 0
+RST
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 62AAC1D8
+P 6250 4150
+F 0 "#PWR0102" H 6250 4000 50  0001 C CNN
+F 1 "+3.3V" H 6265 4323 50  0000 C CNN
+F 2 "" H 6250 4150 50  0001 C CNN
+F 3 "" H 6250 4150 50  0001 C CNN
+	1    6250 4150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5150 2600 3950 2600
+	6400 4250 6250 4250
 Wire Wire Line
-	3950 2600 3950 3200
+	6250 4250 6250 4150
+Text GLabel 6250 3750 0    50   Input ~ 0
+RX
 Wire Wire Line
-	3950 3200 3750 3200
-Connection ~ 5150 3200
-Connection ~ 4950 4850
+	6400 3750 6250 3750
+Text GLabel 7100 3650 2    50   Input ~ 0
+TX
 Wire Wire Line
-	4950 4850 5050 4850
+	6900 3650 7100 3650
+$Comp
+L power:+5V #PWR0103
+U 1 1 62AAFF06
+P 5600 3650
+F 0 "#PWR0103" H 5600 3500 50  0001 C CNN
+F 1 "+5V" H 5615 3823 50  0000 C CNN
+F 2 "" H 5600 3650 50  0001 C CNN
+F 3 "" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4850 4500 4950 4500
+	5500 3700 5600 3700
 Wire Wire Line
-	4950 4500 4950 4850
+	5600 3700 5600 3650
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 62AB069C
+P 5750 3700
+F 0 "#PWR0104" H 5750 3550 50  0001 C CNN
+F 1 "+3.3V" H 5765 3873 50  0000 C CNN
+F 2 "" H 5750 3700 50  0001 C CNN
+F 3 "" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5050 3500 5050 4850
-Connection ~ 5050 4850
+	5500 4000 5750 4000
 Wire Wire Line
-	5050 4850 5950 4850
+	5750 4000 5750 3700
+$Comp
+L power:GND #PWR0105
+U 1 1 62AB1142
+P 5600 4100
+F 0 "#PWR0105" H 5600 3850 50  0001 C CNN
+F 1 "GND" H 5605 3927 50  0000 C CNN
+F 2 "" H 5600 4100 50  0001 C CNN
+F 3 "" H 5600 4100 50  0001 C CNN
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4850 3500 5050 3500
+	5500 3850 5600 3850
 Wire Wire Line
-	3750 3300 4150 3300
+	5600 3850 5600 4100
+NoConn ~ 5500 4150
+NoConn ~ 5500 4300
+NoConn ~ 5500 4450
+Text GLabel 5600 4600 2    50   Input ~ 0
+RX
 Wire Wire Line
-	3750 3500 3900 3500
+	5500 4600 5600 4600
+Text GLabel 3750 4600 0    50   Input ~ 0
+TX
+Text GLabel 3750 3850 0    50   Input ~ 0
+ESS_IN
 Wire Wire Line
-	3900 3500 3900 4850
+	3750 3850 3850 3850
+Text GLabel 6350 5000 2    50   Input ~ 0
+ESS_IN
 Wire Wire Line
-	3900 4850 4950 4850
+	6250 5000 6350 5000
+$Comp
+L power:+5V #PWR0106
+U 1 1 62AB6DD2
+P 6350 4850
+F 0 "#PWR0106" H 6350 4700 50  0001 C CNN
+F 1 "+5V" H 6365 5023 50  0000 C CNN
+F 2 "" H 6350 4850 50  0001 C CNN
+F 3 "" H 6350 4850 50  0001 C CNN
+	1    6350 4850
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7050 3000 7050 2450
+	6250 4900 6350 4900
 Wire Wire Line
-	7050 2450 4100 2450
+	6350 4900 6350 4850
+NoConn ~ 4500 3250
+NoConn ~ 4650 3250
+NoConn ~ 4800 3250
+NoConn ~ 4950 3250
+NoConn ~ 6850 5800
+Text GLabel 7100 4900 2    50   Input ~ 0
+PW_IN
 Wire Wire Line
-	4100 2450 4100 2800
+	7000 4900 7100 4900
 Wire Wire Line
-	4100 2800 4150 2800
+	7100 5000 7100 5100
 Wire Wire Line
-	4150 2900 4050 2900
+	3750 4600 3850 4600
+Text GLabel 6350 5700 0    50   Input ~ 0
+PW_IN
 Wire Wire Line
-	4050 2900 4050 2500
+	6350 5700 6450 5700
+Text Notes 3450 3250 0    50   ~ 0
+SeeeduinoXIAO
+Wire Notes Line
+	7400 4600 5950 4600
+Wire Notes Line
+	3400 3150 7400 3150
+Text Notes 6000 3250 0    50   ~ 0
+IM920-ADP
+Text Notes 6050 4700 0    50   ~ 0
+ESS
+Wire Notes Line
+	6700 5250 6700 4600
+Text Notes 7150 4700 0    50   ~ 0
+Power
+Wire Notes Line
+	7400 3150 7400 5900
+Text Notes 6000 5350 0    50   ~ 0
+Power_SW
+Wire Notes Line
+	5950 3150 5950 5900
+NoConn ~ 6400 3450
+NoConn ~ 6400 4350
+NoConn ~ 3850 3700
+NoConn ~ 3850 4000
+NoConn ~ 3850 4150
+NoConn ~ 3850 4300
+NoConn ~ 3850 4450
+Wire Notes Line
+	3400 3150 3400 5900
+Wire Notes Line
+	3400 5250 7400 5250
+Wire Notes Line
+	3400 5900 7400 5900
+Text Notes 3450 5350 0    50   ~ 0
+Dummy_load
+$Comp
+L power:GND #PWR0107
+U 1 1 62AA0904
+P 3850 5650
+F 0 "#PWR0107" H 3850 5400 50  0001 C CNN
+F 1 "GND" H 3855 5477 50  0000 C CNN
+F 2 "" H 3850 5650 50  0001 C CNN
+F 3 "" H 3850 5650 50  0001 C CNN
+	1    3850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 62AA0D6D
+P 4200 5600
+F 0 "R1" V 3993 5600 50  0000 C CNN
+F 1 "18Ω" V 4084 5600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4130 5600 50  0001 C CNN
+F 3 "~" H 4200 5600 50  0001 C CNN
+	1    4200 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 62AA291F
+P 4650 5600
+F 0 "R2" V 4443 5600 50  0000 C CNN
+F 1 "18Ω" V 4534 5600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4580 5600 50  0001 C CNN
+F 3 "~" H 4650 5600 50  0001 C CNN
+	1    4650 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 62AA2E48
+P 5100 5600
+F 0 "R3" V 4893 5600 50  0000 C CNN
+F 1 "18Ω" V 4984 5600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5030 5600 50  0001 C CNN
+F 3 "~" H 5100 5600 50  0001 C CNN
+	1    5100 5600
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	4050 2500 6150 2500
+	3850 5650 3850 5600
 Wire Wire Line
-	6150 2500 6150 3100
-NoConn ~ 4850 4600
-NoConn ~ 4850 4700
+	3850 5600 4050 5600
+Wire Wire Line
+	4350 5600 4500 5600
+Wire Wire Line
+	4800 5600 4950 5600
+$Comp
+L power:+5V #PWR0108
+U 1 1 62AA5552
+P 5450 5500
+F 0 "#PWR0108" H 5450 5350 50  0001 C CNN
+F 1 "+5V" H 5465 5673 50  0000 C CNN
+F 2 "" H 5450 5500 50  0001 C CNN
+F 3 "" H 5450 5500 50  0001 C CNN
+	1    5450 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5600 5450 5600
+Wire Wire Line
+	5450 5600 5450 5500
 $EndSCHEMATC
