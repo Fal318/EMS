@@ -4,3 +4,8 @@
 !*.sch
 !*.lib
 !*.md
+fp-info-cache
+sym-lib-table
+*.dcm
+*-rescue.lib
+Output/*
