@@ -7,20 +7,20 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2022-07-09T00:31:52+09:00"
+    "CreationDate":  "2022-07-09T00:28:58+09:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "Receiver",
-      "GUID": "52656365-6976-4657-922e-6b696361645f",
+      "Name": "Transmitter",
+      "GUID": "5472616e-736d-4697-9474-65722e6b6963",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 94.030,
-      "Y": 71.170
+      "X": 42.050,
+      "Y": 45.050
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -38,47 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "Receiver-F_Cu.gbr",
+      "Path":  "Transmitter-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Receiver-B_Cu.gbr",
+      "Path":  "Transmitter-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Receiver-F_Paste.gbr",
+      "Path":  "Transmitter-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Receiver-B_Paste.gbr",
+      "Path":  "Transmitter-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Receiver-F_SilkS.gbr",
+      "Path":  "Transmitter-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Receiver-B_SilkS.gbr",
+      "Path":  "Transmitter-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Receiver-F_Mask.gbr",
+      "Path":  "Transmitter-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Receiver-B_Mask.gbr",
+      "Path":  "Transmitter-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Receiver-Edge_Cuts.gbr",
+      "Path":  "Transmitter-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
