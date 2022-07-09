@@ -56,11 +56,26 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
+# MyComponent_TA48033S
 #
-DEF Transmitter-rescue_+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR 0 0 Y Y 1 F P
+DEF MyComponent_TA48033S U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "MyComponent_TA48033S" 0 250 50 H V C CNN
+F2 "" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+S -250 200 250 -100 0 1 0 N
+X Vin 1 -350 100 100 R 50 50 1 1 I
+X Vout 2 350 100 100 L 50 50 1 1 O
+X GND 3 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Transmitter-rescue_+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
+#
+DEF Transmitter-rescue_+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Transmitter-rescue_+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 140 50 H V C CNN
+F1 "Transmitter-rescue_+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -71,11 +86,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
+# Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
 #
-DEF Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J 0 40 Y N 1 F N
+DEF Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 -200 50 H V C CNN
+F1 "Transmitter-rescue_Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -91,11 +106,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
+# Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
 #
-DEF Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J 0 40 Y N 1 F N
+DEF Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 -600 50 H V C CNN
+F1 "Transmitter-rescue_Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -135,11 +150,11 @@ X Pin_9 9 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
+# Transmitter-rescue_GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
 #
-DEF Transmitter-rescue_GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR 0 0 Y Y 1 F P
+DEF Transmitter-rescue_GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Transmitter-rescue_GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 -150 50 H V C CNN
+F1 "Transmitter-rescue_GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -148,11 +163,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
+# Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue
 #
-DEF Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue SW 0 0 Y N 1 F N
+DEF Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 -200 50 H V C CNN
+F1 "Transmitter-rescue_SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

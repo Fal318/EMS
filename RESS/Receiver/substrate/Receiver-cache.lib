@@ -31,11 +31,11 @@ X GND 3 0 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
+# Receiver-rescue_+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
 #
-DEF Receiver-rescue_+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR 0 0 Y Y 1 F P
+DEF Receiver-rescue_+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Receiver-rescue_+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 140 50 H V C CNN
+F1 "Receiver-rescue_+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
+# Receiver-rescue_Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
 #
-DEF Receiver-rescue_Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J 0 40 Y N 1 F N
+DEF Receiver-rescue_Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Receiver-rescue_Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -200 50 H V C CNN
+F1 "Receiver-rescue_Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -66,11 +66,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
+# Receiver-rescue_Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
 #
-DEF Receiver-rescue_Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J 0 40 Y N 1 F N
+DEF Receiver-rescue_Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Receiver-rescue_Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -600 50 H V C CNN
+F1 "Receiver-rescue_Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -110,11 +110,11 @@ X Pin_9 9 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
+# Receiver-rescue_GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
 #
-DEF Receiver-rescue_GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR 0 0 Y Y 1 F P
+DEF Receiver-rescue_GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Receiver-rescue_GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -150 50 H V C CNN
+F1 "Receiver-rescue_GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -123,11 +123,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
+# Receiver-rescue_LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
 #
-DEF Receiver-rescue_LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D 0 40 N N 1 F N
+DEF Receiver-rescue_LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Receiver-rescue_LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -100 50 H V C CNN
+F1 "Receiver-rescue_LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -146,11 +146,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
+# Receiver-rescue_LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
 #
-DEF Receiver-rescue_LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue U 0 40 Y Y 1 F N
+DEF Receiver-rescue_LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue U 0 40 Y Y 1 F N
 F0 "U" -200 200 50 H V L CNN
-F1 "Receiver-rescue_LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 200 50 H V L CNN
+F1 "Receiver-rescue_LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 200 50 H V L CNN
 F2 "Package_DIP:DIP-4_W7.62mm" -200 -200 50 H I L CIN
 F3 "" 0 -100 50 H I L CNN
 $FPLIST
@@ -177,11 +177,11 @@ X ~ 4 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_RR-1A-RR-1A-Receiver-rescue
+# Receiver-rescue_RR-1A-RR-1A-Receiver-rescue-Receiver-rescue
 #
-DEF Receiver-rescue_RR-1A-RR-1A-Receiver-rescue U 0 40 Y Y 1 F N
+DEF Receiver-rescue_RR-1A-RR-1A-Receiver-rescue-Receiver-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 300 50 H V C CNN
-F1 "Receiver-rescue_RR-1A-RR-1A-Receiver-rescue" 0 250 50 H V C CNN
+F1 "Receiver-rescue_RR-1A-RR-1A-Receiver-rescue-Receiver-rescue" 0 250 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -199,11 +199,11 @@ X OUT4 9 350 -150 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
+# Receiver-rescue_SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue
 #
-DEF Receiver-rescue_SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue SW 0 0 Y N 1 F N
+DEF Receiver-rescue_SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Receiver-rescue_SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -200 50 H V C CNN
+F1 "Receiver-rescue_SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -217,11 +217,11 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_TC74HC08AP-74
+# Receiver-rescue_TC74HC08AP-74-Receiver-rescue
 #
-DEF Receiver-rescue_TC74HC08AP-74 U 0 40 Y Y 1 F N
+DEF Receiver-rescue_TC74HC08AP-74-Receiver-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 500 50 H V C CNN
-F1 "Receiver-rescue_TC74HC08AP-74" 0 400 50 H V C CNN
+F1 "Receiver-rescue_TC74HC08AP-74-Receiver-rescue" 0 400 50 H V C CNN
 F2 "" 0 450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 DRAW
@@ -243,11 +243,11 @@ X 3A 9 300 -200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue_TC74HC32AP-74
+# Receiver-rescue_TC74HC32AP-74-Receiver-rescue
 #
-DEF Receiver-rescue_TC74HC32AP-74 U 0 40 Y Y 1 F N
+DEF Receiver-rescue_TC74HC32AP-74-Receiver-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 500 50 H V C CNN
-F1 "Receiver-rescue_TC74HC32AP-74" 0 400 50 H V C CNN
+F1 "Receiver-rescue_TC74HC32AP-74-Receiver-rescue" 0 400 50 H V C CNN
 F2 "" 0 350 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
