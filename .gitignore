@@ -1,8 +1,11 @@
 ./*/*/substrate/*
-.vscode
 !*.kicad_pcb
 !*.pro
 !*.sch
 !*.lib
 !*.md
-*.out
+fp-info-cache
+sym-lib-table
+*.dcm
+*-rescue.lib
+Output/*
