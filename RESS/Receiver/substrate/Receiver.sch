@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Receiver-rescue:GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR0101
+L Receiver-rescue:GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR0101
 U 1 1 60AF1801
 P 6500 4400
 F 0 "#PWR0101" H 6500 4150 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 6500 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J5
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J5
 U 1 1 60B39C1D
 P 6250 4300
 F 0 "J5" H 6350 4150 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "~" H 6250 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue U1
+L Receiver-rescue:LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue U1
 U 1 1 60AF1260
 P 5500 4350
 F 0 "U1" H 5500 4600 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 5500 4250 50  000
 	0    -1   1    0   
 $EndComp
 $Comp
-L Receiver-rescue:LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D1
+L Receiver-rescue:LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D1
 U 1 1 60B360E0
 P 5800 4700
 F 0 "D1" H 5800 4800 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "~" H 5800 4700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue SW1
+L Receiver-rescue:SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue SW1
 U 1 1 60B49C25
 P 6250 4800
 F 0 "SW1" H 6250 4600 50  0000 C CNN
@@ -71,7 +71,7 @@ $EndComp
 Wire Wire Line
 	5600 4700 5650 4700
 $Comp
-L Receiver-rescue:LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D2
+L Receiver-rescue:LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D2
 U 1 1 60B97B28
 P 5800 4900
 F 0 "D2" H 5800 4800 50  0000 C CNN
@@ -86,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4900 5400 4900
 $Comp
-L Receiver-rescue:+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR0104
+L Receiver-rescue:+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR0104
 U 1 1 60B5796E
 P 6500 4300
 F 0 "#PWR0104" H 6500 4150 50  0001 C CNN
@@ -174,7 +174,7 @@ NoConn ~ 6600 3650
 NoConn ~ 6150 3550
 NoConn ~ 6150 3650
 $Comp
-L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J4
+L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J4
 U 1 1 60B038BF
 P 6400 3450
 F 0 "J4" H 6300 2900 50  0000 C CNN
@@ -185,7 +185,7 @@ F 3 "~" H 6400 3450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J3
+L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J3
 U 1 1 60B01E56
 P 6350 3450
 F 0 "J3" H 6200 2900 50  0000 L CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 4800 6550 4800
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J6
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J6
 U 1 1 60BC7FBD
 P 6750 4800
 F 0 "J6" H 6900 5000 50  0000 R CNN
@@ -223,7 +223,7 @@ Wire Wire Line
 Wire Notes Line
 	8100 2850 8100 5100
 $Comp
-L Receiver-rescue:RR-1A-RR-1A-Receiver-rescue U2
+L Receiver-rescue:RR-1A-RR-1A-Receiver-rescue-Receiver-rescue U2
 U 1 1 62C7EF96
 P 4400 3200
 F 0 "U2" H 4400 3500 50  0000 L CNN
@@ -379,7 +379,7 @@ OUT2
 Text Notes 4150 4650 2    50   ~ 0
 DIP-SW
 $Comp
-L Receiver-rescue:TC74HC32AP-74 U4
+L Receiver-rescue:TC74HC32AP-74-Receiver-rescue U4
 U 1 1 62CAEDC7
 P 7550 3450
 F 0 "U4" H 7550 3975 50  0000 C CNN
@@ -394,7 +394,7 @@ OUT5
 Text GLabel 7250 3650 0    50   Output ~ 0
 OUT6
 $Comp
-L Receiver-rescue:TC74HC08AP-74 U5
+L Receiver-rescue:TC74HC08AP-74-Receiver-rescue U5
 U 1 1 62CBA817
 P 7550 4550
 F 0 "U5" H 7550 5075 50  0000 C CNN
