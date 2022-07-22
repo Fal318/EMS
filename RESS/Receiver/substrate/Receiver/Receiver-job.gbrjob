@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2022-07-09T16:27:42+09:00"
+    "CreationDate":  "2022-07-22T17:15:22+09:00"
   },
   "GeneralSpecs":
   {
@@ -19,8 +19,8 @@
     },
     "Size":
     {
-      "X": 94.030,
-      "Y": 71.170
+      "X": 95.300,
+      "Y": 72.440
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600

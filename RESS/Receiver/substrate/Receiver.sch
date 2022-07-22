@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Receiver-rescue:GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR0101
+L Receiver-rescue:GND-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR0101
 U 1 1 60AF1801
 P 6500 4400
 F 0 "#PWR0101" H 6500 4150 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 6500 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J5
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J5
 U 1 1 60B39C1D
 P 6250 4300
 F 0 "J5" H 6350 4150 50  0000 C CNN
@@ -36,57 +36,44 @@ F 3 "~" H 6250 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:LTV-817-Isolator-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue U1
-U 1 1 60AF1260
-P 5500 4350
-F 0 "U1" H 5500 4600 50  0000 C CNN
-F 1 "LTV-817" H 5500 4700 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 5300 4150 50  0001 L CIN
-F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 5500 4250 50  0001 L CNN
-	1    5500 4350
-	0    -1   1    0   
-$EndComp
-$Comp
-L Receiver-rescue:LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D1
+L Receiver-rescue:LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D1
 U 1 1 60B360E0
-P 5800 4700
-F 0 "D1" H 5800 4800 50  0000 C CNN
-F 1 "LED" H 5800 4800 50  0001 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 5800 4700 50  0001 C CNN
-F 3 "~" H 5800 4700 50  0001 C CNN
-	1    5800 4700
-	-1   0    0    -1  
+P 5500 4700
+F 0 "D1" H 5500 4800 50  0000 C CNN
+F 1 "LED" H 5500 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5500 4700 50  0001 C CNN
+F 3 "~" H 5500 4700 50  0001 C CNN
+	1    5500 4700
+	1    0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue SW1
+L Receiver-rescue:SW_SPDT-Switch-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue SW1
 U 1 1 60B49C25
-P 6250 4800
-F 0 "SW1" H 6250 4600 50  0000 C CNN
-F 1 "SW_SPDT" H 6250 4950 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" H 6250 4800 50  0001 C CNN
-F 3 "~" H 6250 4800 50  0001 C CNN
-	1    6250 4800
+P 5950 4800
+F 0 "SW1" H 5950 4600 50  0000 C CNN
+F 1 "SW_SPDT" H 5950 4950 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Push_1P2T_Vertical_E-Switch_800UDP8P1A1M6" H 5950 4800 50  0001 C CNN
+F 3 "~" H 5950 4800 50  0001 C CNN
+	1    5950 4800
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 4700 5650 4700
+	5300 4700 5350 4700
 $Comp
-L Receiver-rescue:LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D2
+L Receiver-rescue:LED-Device-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue D2
 U 1 1 60B97B28
-P 5800 4900
-F 0 "D2" H 5800 4800 50  0000 C CNN
-F 1 "LED" H 5800 4650 50  0001 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 5800 4900 50  0001 C CNN
-F 3 "~" H 5800 4900 50  0001 C CNN
-	1    5800 4900
-	-1   0    0    -1  
+P 5500 4900
+F 0 "D2" H 5500 4800 50  0000 C CNN
+F 1 "LED" H 5500 4650 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5500 4900 50  0001 C CNN
+F 3 "~" H 5500 4900 50  0001 C CNN
+	1    5500 4900
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 4650 5600 4700
-Wire Wire Line
-	5650 4900 5400 4900
+	5350 4900 5100 4900
 $Comp
-L Receiver-rescue:+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR0104
+L Receiver-rescue:+5V-power-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue #PWR0104
 U 1 1 60B5796E
 P 6500 4300
 F 0 "#PWR0104" H 6500 4150 50  0001 C CNN
@@ -105,32 +92,28 @@ OUT1
 $Comp
 L power:GND #PWR0106
 U 1 1 62ABAFED
-P 5750 4050
-F 0 "#PWR0106" H 5750 3800 50  0001 C CNN
-F 1 "GND" H 5755 3877 50  0000 C CNN
-F 2 "" H 5750 4050 50  0001 C CNN
-F 3 "" H 5750 4050 50  0001 C CNN
-	1    5750 4050
-	1    0    0    -1  
+P 4950 4100
+F 0 "#PWR0106" H 4950 3850 50  0001 C CNN
+F 1 "GND" H 4955 3927 50  0000 C CNN
+F 2 "" H 4950 4100 50  0001 C CNN
+F 3 "" H 4950 4100 50  0001 C CNN
+	1    4950 4100
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 4050 5600 4000
+	5300 4100 5300 4000
 Wire Wire Line
-	5600 4000 5750 4000
+	5100 4050 4950 4050
 Wire Wire Line
-	5750 4000 5750 4050
-Text GLabel 5250 4050 0    50   Input ~ 0
+	4950 4050 4950 4100
+Text GLabel 5650 4000 2    50   Input ~ 0
 OUT
-Connection ~ 5400 4900
+Connection ~ 5100 4900
 Wire Wire Line
-	5400 4650 5400 4900
+	5650 4700 5750 4700
 Wire Wire Line
-	5950 4700 6050 4700
-Wire Wire Line
-	5950 4900 6050 4900
-Wire Notes Line
-	5000 2850 5000 5100
-Text Notes 5450 3900 2    50   ~ 0
+	5650 4900 5750 4900
+Text Notes 5300 3900 2    50   ~ 0
 Status_SW1
 Wire Notes Line
 	5850 4550 6950 4550
@@ -174,7 +157,7 @@ NoConn ~ 6600 3650
 NoConn ~ 6150 3550
 NoConn ~ 6150 3650
 $Comp
-L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J4
+L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J4
 U 1 1 60B038BF
 P 6400 3450
 F 0 "J4" H 6300 2900 50  0000 C CNN
@@ -185,7 +168,7 @@ F 3 "~" H 6400 3450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J3
+L Receiver-rescue:Conn_01x10_Female-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J3
 U 1 1 60B01E56
 P 6350 3450
 F 0 "J3" H 6200 2900 50  0000 L CNN
@@ -202,28 +185,26 @@ Power
 Text Notes 6300 2950 2    50   ~ 0
 IM920-ADP
 Wire Wire Line
-	5400 4900 5400 5050
+	5100 4900 5100 5050
 Wire Wire Line
-	6550 4900 6550 5050
+	6250 4900 6250 5050
 Wire Wire Line
-	6450 4800 6550 4800
+	6150 4800 6250 4800
 $Comp
-L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J6
+L Receiver-rescue:Conn_01x02_Male-Connector-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue J6
 U 1 1 60BC7FBD
-P 6750 4800
-F 0 "J6" H 6900 5000 50  0000 R CNN
-F 1 "RESS_OUT1" H 7050 4900 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 6750 4800 50  0001 C CNN
-F 3 "~" H 6750 4800 50  0001 C CNN
-	1    6750 4800
+P 6450 4800
+F 0 "J6" H 6600 5000 50  0000 R CNN
+F 1 "RESS_OUT1" H 6750 4900 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 6450 4800 50  0001 C CNN
+F 3 "~" H 6450 4800 50  0001 C CNN
+	1    6450 4800
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 5050 5400 5050
 Wire Notes Line
 	8100 2850 8100 5100
 $Comp
-L Receiver-rescue:RR-1A-RR-1A-Receiver-rescue-Receiver-rescue U2
+L Receiver-rescue:RR-1A-RR-1A-Receiver-rescue-Receiver-rescue-Receiver-rescue-Receiver-rescue U2
 U 1 1 62C7EF96
 P 4400 3200
 F 0 "U2" H 4400 3500 50  0000 L CNN
@@ -238,44 +219,40 @@ Regulator
 $Comp
 L power:+5V #PWR0102
 U 1 1 62C91ED3
-P 4000 3950
-F 0 "#PWR0102" H 4000 3800 50  0001 C CNN
-F 1 "+5V" H 3950 4100 50  0000 C CNN
-F 2 "" H 4000 3950 50  0001 C CNN
-F 3 "" H 4000 3950 50  0001 C CNN
-	1    4000 3950
+P 3900 3950
+F 0 "#PWR0102" H 3900 3800 50  0001 C CNN
+F 1 "+5V" H 4000 4050 50  0000 C CNN
+F 2 "" H 3900 3950 50  0001 C CNN
+F 3 "" H 3900 3950 50  0001 C CNN
+	1    3900 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3950 4000 4000
+	3900 3950 3900 4000
 $Comp
 L power:GND #PWR0103
 U 1 1 62C930D3
-P 4400 4300
-F 0 "#PWR0103" H 4400 4050 50  0001 C CNN
-F 1 "GND" H 4405 4127 50  0000 C CNN
-F 2 "" H 4400 4300 50  0001 C CNN
-F 3 "" H 4400 4300 50  0001 C CNN
-	1    4400 4300
+P 4300 4400
+F 0 "#PWR0103" H 4300 4150 50  0001 C CNN
+F 1 "GND" H 4400 4300 50  0000 C CNN
+F 2 "" H 4300 4400 50  0001 C CNN
+F 3 "" H 4300 4400 50  0001 C CNN
+	1    4300 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0105
 U 1 1 62C93FD7
-P 4800 3950
-F 0 "#PWR0105" H 4800 3800 50  0001 C CNN
-F 1 "+3.3V" H 4815 4123 50  0000 C CNN
-F 2 "" H 4800 3950 50  0001 C CNN
-F 3 "" H 4800 3950 50  0001 C CNN
-	1    4800 3950
+P 4700 3950
+F 0 "#PWR0105" H 4700 3800 50  0001 C CNN
+F 1 "+3.3V" H 4600 4100 50  0000 C CNN
+F 2 "" H 4700 3950 50  0001 C CNN
+F 3 "" H 4700 3950 50  0001 C CNN
+	1    4700 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 4000 4800 3950
-Wire Notes Line
-	5000 3800 5850 3800
-Wire Notes Line
-	5000 3650 3850 3650
+	4700 4000 4700 3950
 Text Notes 3900 2950 0    50   ~ 0
 RR-1A
 NoConn ~ 4550 3350
@@ -329,44 +306,11 @@ Text GLabel 7250 4450 0    50   Output ~ 0
 OUT
 Text Notes 7000 2950 0    50   ~ 0
 OR-Gate
-$Comp
-L Switch:SW_DIP_x02 SW2
-U 1 1 62C876DB
-P 4450 4950
-F 0 "SW2" H 4450 5317 50  0000 C CNN
-F 1 "SW_DIP_x02" H 4450 5226 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 4450 4950 50  0001 C CNN
-F 3 "~" H 4450 4950 50  0001 C CNN
-	1    4450 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4150 4850 4050 4850
-Wire Wire Line
-	4050 4850 4050 4900
-Wire Wire Line
-	4050 4950 4150 4950
-$Comp
-L power:+3.3V #PWR0111
-U 1 1 62C897A4
-P 3950 4850
-F 0 "#PWR0111" H 3950 4700 50  0001 C CNN
-F 1 "+3.3V" H 4050 5000 50  0000 C CNN
-F 2 "" H 3950 4850 50  0001 C CNN
-F 3 "" H 3950 4850 50  0001 C CNN
-	1    3950 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 4850 3950 4900
-Wire Wire Line
-	3950 4900 4050 4900
-Connection ~ 4050 4900
-Wire Wire Line
-	4050 4900 4050 4950
-Text GLabel 4750 4850 2    50   Output ~ 0
+	3900 4850 3900 4900
+Text GLabel 4600 4850 2    50   Output ~ 0
 OUT3
-Text GLabel 4750 4950 2    50   Output ~ 0
+Text GLabel 4600 4950 2    50   Output ~ 0
 OUT4
 Text GLabel 7250 3250 0    50   Input ~ 0
 OUT3
@@ -379,7 +323,7 @@ OUT2
 Text Notes 4150 4650 2    50   ~ 0
 DIP-SW
 $Comp
-L Receiver-rescue:TC74HC32AP-74-Receiver-rescue U4
+L Receiver-rescue:TC74HC32AP-74-Receiver-rescue-Receiver-rescue-Receiver-rescue U4
 U 1 1 62CAEDC7
 P 7550 3450
 F 0 "U4" H 7550 3975 50  0000 C CNN
@@ -394,7 +338,7 @@ OUT5
 Text GLabel 7250 3650 0    50   Output ~ 0
 OUT6
 $Comp
-L Receiver-rescue:TC74HC08AP-74-Receiver-rescue U5
+L Receiver-rescue:TC74HC08AP-74-Receiver-rescue-Receiver-rescue-Receiver-rescue U5
 U 1 1 62CBA817
 P 7550 4550
 F 0 "U5" H 7550 5075 50  0000 C CNN
@@ -409,8 +353,6 @@ Wire Wire Line
 NoConn ~ 4650 3350
 NoConn ~ 4750 3350
 NoConn ~ 4850 3350
-Wire Notes Line
-	3850 4550 5000 4550
 $Comp
 L power:+5V #PWR0112
 U 1 1 62CE275A
@@ -429,11 +371,7 @@ Wire Wire Line
 Wire Notes Line
 	8100 3900 6950 3900
 Wire Notes Line
-	8100 2850 3850 2850
-Wire Notes Line
-	3850 2850 3850 5100
-Wire Notes Line
-	8100 5100 3850 5100
+	3750 2850 3750 5100
 $Comp
 L power:+5V #PWR0113
 U 1 1 62CE8771
@@ -466,25 +404,8 @@ NoConn ~ 7850 4650
 NoConn ~ 7850 4550
 NoConn ~ 7850 4450
 NoConn ~ 7850 4350
-$Comp
-L MyComponent:TA48033S U3
-U 1 1 62C832F5
-P 4400 4100
-F 0 "U3" H 4400 4465 50  0000 C CNN
-F 1 "TA48033S" H 4400 4374 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 4400 4400 50  0001 C CNN
-F 3 "" H 4400 4400 50  0001 C CNN
-	1    4400 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 4000 4000 4000
-Wire Wire Line
-	4800 4000 4750 4000
 Wire Notes Line
 	5850 4150 6950 4150
-Wire Wire Line
-	5400 4050 5250 4050
 Wire Wire Line
 	6600 3850 6800 3850
 Wire Wire Line
@@ -539,10 +460,10 @@ F 3 "~" H 5150 3650 50  0001 C CNN
 $EndComp
 NoConn ~ 6150 3450
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0114
 U 1 1 62C83FA5
 P 6700 3400
-F 0 "#PWR?" H 6700 3250 50  0001 C CNN
+F 0 "#PWR0114" H 6700 3250 50  0001 C CNN
 F 1 "+3.3V" H 6750 3550 50  0000 C CNN
 F 2 "" H 6700 3400 50  0001 C CNN
 F 3 "" H 6700 3400 50  0001 C CNN
@@ -554,4 +475,129 @@ Wire Wire Line
 	6600 3450 6700 3450
 Wire Wire Line
 	6700 3450 6700 3400
+$Comp
+L Switch:SW_DIP_x02 SW2
+U 1 1 62C876DB
+P 4300 4950
+F 0 "SW2" H 4300 5317 50  0000 C CNN
+F 1 "SW_DIP_x02" H 4300 5226 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4300 4950 50  0001 C CNN
+F 3 "~" H 4300 4950 50  0001 C CNN
+	1    4300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4900 4000 4950
+Connection ~ 4000 4900
+Wire Wire Line
+	3900 4900 4000 4900
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 62C897A4
+P 3900 4850
+F 0 "#PWR0111" H 3900 4700 50  0001 C CNN
+F 1 "+3.3V" H 4000 4950 50  0000 C CNN
+F 2 "" H 3900 4850 50  0001 C CNN
+F 3 "" H 3900 4850 50  0001 C CNN
+	1    3900 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4850 4000 4900
+Wire Notes Line
+	4850 5100 4850 3650
+Wire Notes Line
+	4950 3650 4950 2850
+Wire Notes Line
+	4850 3800 5850 3800
+$Comp
+L Device:R R1
+U 1 1 62CC8D96
+P 5450 4000
+F 0 "R1" V 5350 4000 50  0000 C CNN
+F 1 "220Ω" V 5550 4000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5380 4000 50  0001 C CNN
+F 3 "~" H 5450 4000 50  0001 C CNN
+	1    5450 4000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5650 4000 5600 4000
+Wire Wire Line
+	5100 4050 5100 4100
+$Comp
+L Isolator:TLP785 U1
+U 1 1 62CD2420
+P 5200 4400
+F 0 "U1" V 5154 4588 50  0000 L CNN
+F 1 "TLP785" V 5245 4588 50  0000 L CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5000 4200 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785" H 5200 4400 50  0001 L CNN
+	1    5200 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 4700 5100 4900
+$Comp
+L Device:C C1
+U 1 1 62D96F0A
+P 3900 4200
+F 0 "C1" H 3950 4300 50  0000 L CNN
+F 1 "0.33μF" H 3950 4100 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3938 4050 50  0001 C CNN
+F 3 "~" H 3900 4200 50  0001 C CNN
+	1    3900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4400 4300 4350
+Wire Wire Line
+	3900 4350 4300 4350
+Connection ~ 4300 4350
+Wire Wire Line
+	4300 4350 4300 4300
+Wire Wire Line
+	4300 4350 4700 4350
+Wire Wire Line
+	4700 4050 4700 4000
+Connection ~ 4700 4000
+Wire Wire Line
+	3900 4000 3900 4050
+Connection ~ 3900 4000
+Wire Notes Line
+	3750 5100 8100 5100
+Wire Notes Line
+	3750 4550 4850 4550
+Wire Notes Line
+	3750 3650 4950 3650
+Wire Notes Line
+	3750 2850 8100 2850
+$Comp
+L Device:CP C2
+U 1 1 62D9862B
+P 4700 4200
+F 0 "C2" H 4750 4300 50  0000 L CNN
+F 1 "47μF" H 4500 4100 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4738 4050 50  0001 C CNN
+F 3 "~" H 4700 4200 50  0001 C CNN
+	1    4700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5050 6250 5050
+$Comp
+L Regulator_Linear:AP2204R-3.3 U3
+U 1 1 62DA4AC1
+P 4300 4000
+F 0 "U3" H 4300 4242 50  0000 C CNN
+F 1 "48033S" H 4300 4151 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 4300 4225 50  0001 C CNN
+F 3 "" H 4300 4000 50  0001 C CNN
+	1    4300 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4000 4700 4000
+Wire Wire Line
+	3900 4000 4000 4000
 $EndSCHEMATC

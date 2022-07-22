@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J3
+L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J3
 U 1 1 60B0F59A
 P 6300 3350
 F 0 "J3" H 6150 2750 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "~" H 6300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J4
+L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J4
 U 1 1 60B10C64
 P 6400 3350
 F 0 "J4" H 6300 2750 50  0000 C CNN
@@ -48,18 +48,18 @@ NoConn ~ 6600 3550
 NoConn ~ 6600 3650
 NoConn ~ 6600 3850
 $Comp
-L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J5
+L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J5
 U 1 1 60C2BF9E
-P 4350 3200
-F 0 "J5" H 4458 3381 50  0000 C CNN
-F 1 "POWER" H 4458 3290 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 4350 3200 50  0001 C CNN
-F 3 "~" H 4350 3200 50  0001 C CNN
-	1    4350 3200
+P 7200 4300
+F 0 "J5" H 7308 4481 50  0000 C CNN
+F 1 "POWER" H 7308 4390 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 7200 4300 50  0001 C CNN
+F 3 "~" H 7200 4300 50  0001 C CNN
+	1    7200 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR01
+L Transmitter-rescue:+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR01
 U 1 1 60C2C475
 P 5800 3100
 F 0 "#PWR01" H 5800 2950 50  0001 C CNN
@@ -70,14 +70,14 @@ F 3 "" H 5800 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR02
+L Transmitter-rescue:GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR02
 U 1 1 60C2CC2C
-P 4650 3400
-F 0 "#PWR02" H 4650 3150 50  0001 C CNN
-F 1 "GND" H 4500 3350 50  0000 C CNN
-F 2 "" H 4650 3400 50  0001 C CNN
-F 3 "" H 4650 3400 50  0001 C CNN
-	1    4650 3400
+P 7500 4450
+F 0 "#PWR02" H 7500 4200 50  0001 C CNN
+F 1 "GND" H 7350 4400 50  0000 C CNN
+F 2 "" H 7500 4450 50  0001 C CNN
+F 3 "" H 7500 4450 50  0001 C CNN
+	1    7500 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -85,20 +85,20 @@ Wire Wire Line
 Wire Wire Line
 	5800 3250 5800 3100
 Wire Wire Line
-	4550 3300 4650 3300
+	7400 4400 7500 4400
 $Comp
-L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J6
+L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J6
 U 1 1 60B16252
-P 3200 3000
-F 0 "J6" H 3350 2800 50  0000 R CNN
-F 1 "ESS_IN" H 3450 2700 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 3200 3000 50  0001 C CNN
-F 3 "~" H 3200 3000 50  0001 C CNN
-	1    3200 3000
+P 3200 3050
+F 0 "J6" H 3350 2850 50  0000 R CNN
+F 1 "ESS_IN" H 3450 2750 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 3200 3050 50  0001 C CNN
+F 3 "~" H 3200 3050 50  0001 C CNN
+	1    3200 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue SW1
+L Transmitter-rescue:SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue SW1
 U 1 1 60B2577F
 P 5500 3350
 F 0 "SW1" H 5500 3635 50  0000 C CNN
@@ -140,39 +140,37 @@ Wire Wire Line
 	6100 3750 5950 3750
 Wire Wire Line
 	5950 3350 5950 3250
-Text GLabel 4000 3100 2    50   Input ~ 0
+Text GLabel 4700 3300 2    50   Input ~ 0
 ESS
 Wire Wire Line
-	3400 3100 3500 3100
+	3400 3150 3500 3150
 $Comp
 L power:+5V #PWR0106
 U 1 1 62AB6DD2
-P 3500 2950
-F 0 "#PWR0106" H 3500 2800 50  0001 C CNN
-F 1 "+5V" H 3400 3050 50  0000 C CNN
-F 2 "" H 3500 2950 50  0001 C CNN
-F 3 "" H 3500 2950 50  0001 C CNN
-	1    3500 2950
+P 3500 3000
+F 0 "#PWR0106" H 3500 2850 50  0001 C CNN
+F 1 "+5V" H 3400 3100 50  0000 C CNN
+F 2 "" H 3500 3000 50  0001 C CNN
+F 3 "" H 3500 3000 50  0001 C CNN
+	1    3500 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 3000 3500 3000
+	3400 3050 3500 3050
 Wire Wire Line
-	3500 3000 3500 2950
+	3500 3050 3500 3000
 NoConn ~ 5700 3450
-Text GLabel 4650 3200 2    50   Input ~ 0
+Text GLabel 7500 4300 2    50   Input ~ 0
 PW_IN
 Wire Wire Line
-	4550 3200 4650 3200
-Wire Wire Line
-	4650 3300 4650 3400
+	7400 4300 7500 4300
 Text GLabel 5250 3350 0    50   Input ~ 0
 PW_IN
 Text Notes 5650 2900 0    50   ~ 0
 IM920-ADP
-Text Notes 3150 2900 0    50   ~ 0
+Text Notes 3150 2950 0    50   ~ 0
 ESS
-Text Notes 4300 2900 0    50   ~ 0
+Text Notes 6850 4150 0    50   ~ 0
 Power
 Text Notes 5000 2900 0    50   ~ 0
 Power_SW
@@ -196,7 +194,7 @@ L Device:R R1
 U 1 1 62AA0D6D
 P 3550 3950
 F 0 "R1" V 3343 3950 50  0000 C CNN
-F 1 "18Ω" V 3434 3950 50  0000 C CNN
+F 1 "22Ω" V 3434 3950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 3950 50  0001 C CNN
 F 3 "~" H 3550 3950 50  0001 C CNN
 	1    3550 3950
@@ -207,7 +205,7 @@ L Device:R R3
 U 1 1 62AA2E48
 P 4450 3950
 F 0 "R3" V 4243 3950 50  0000 C CNN
-F 1 "18Ω" V 4334 3950 50  0000 C CNN
+F 1 "22Ω" V 4334 3950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4380 3950 50  0001 C CNN
 F 3 "~" H 4450 3950 50  0001 C CNN
 	1    4450 3950
@@ -237,35 +235,6 @@ Wire Wire Line
 NoConn ~ 6600 3150
 Text GLabel 6600 2950 2    50   Input ~ 0
 ESS
-$Comp
-L power:GND #PWR0103
-U 1 1 62C8A636
-P 3900 3200
-F 0 "#PWR0103" H 3900 2950 50  0001 C CNN
-F 1 "GND" H 3905 3027 50  0000 C CNN
-F 2 "" H 3900 3200 50  0001 C CNN
-F 3 "" H 3900 3200 50  0001 C CNN
-	1    3900 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 62C8BF5B
-P 3700 3100
-F 0 "R4" V 3493 3100 50  0000 C CNN
-F 1 "10kΩ" V 3584 3100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 3100 50  0001 C CNN
-F 3 "~" H 3700 3100 50  0001 C CNN
-	1    3700 3100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3850 3100 3900 3100
-Wire Wire Line
-	3900 3200 3900 3100
-Connection ~ 3900 3100
-Wire Wire Line
-	3900 3100 4000 3100
 NoConn ~ 6100 3250
 Wire Wire Line
 	6100 3350 5950 3350
@@ -278,8 +247,6 @@ Wire Notes Line
 	5600 2950 5600 2800
 Wire Wire Line
 	5250 3350 5300 3350
-Wire Notes Line
-	4250 2800 4250 3600
 Wire Notes Line
 	3100 3600 4950 3600
 Wire Notes Line
@@ -297,21 +264,14 @@ L Device:R R2
 U 1 1 62AA291F
 P 4000 3950
 F 0 "R2" V 3793 3950 50  0000 C CNN
-F 1 "18Ω" V 3884 3950 50  0000 C CNN
+F 1 "22Ω" V 3884 3950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3930 3950 50  0001 C CNN
 F 3 "~" H 4000 3950 50  0001 C CNN
 	1    4000 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 3600 3250 2    50   Input ~ 0
+Text GLabel 3600 3200 2    50   Input ~ 0
 LED
-Wire Wire Line
-	3600 3250 3500 3250
-Wire Wire Line
-	3500 3250 3500 3100
-Connection ~ 3500 3100
-Wire Wire Line
-	3500 3100 3550 3100
 $Comp
 L Device:LED D1
 U 1 1 62CBA413
@@ -395,36 +355,25 @@ Wire Notes Line
 Wire Notes Line
 	6800 2800 6800 4600
 $Comp
-L MyComponent:TA48033S U1
-U 1 1 62C9172D
-P 7300 3550
-F 0 "U1" H 7300 3915 50  0000 C CNN
-F 1 "TA48033S" H 7300 3824 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7300 3850 50  0001 C CNN
-F 3 "" H 7300 3850 50  0001 C CNN
-	1    7300 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0105
 U 1 1 62C935D3
-P 7700 3400
-F 0 "#PWR0105" H 7700 3250 50  0001 C CNN
-F 1 "+3.3V" H 7715 3573 50  0000 C CNN
-F 2 "" H 7700 3400 50  0001 C CNN
-F 3 "" H 7700 3400 50  0001 C CNN
-	1    7700 3400
+P 7700 3150
+F 0 "#PWR0105" H 7700 3000 50  0001 C CNN
+F 1 "+3.3V" H 7715 3323 50  0000 C CNN
+F 2 "" H 7700 3150 50  0001 C CNN
+F 3 "" H 7700 3150 50  0001 C CNN
+	1    7700 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0109
 U 1 1 62C93BBD
-P 6900 3400
-F 0 "#PWR0109" H 6900 3250 50  0001 C CNN
-F 1 "+5V" H 6915 3573 50  0000 C CNN
-F 2 "" H 6900 3400 50  0001 C CNN
-F 3 "" H 6900 3400 50  0001 C CNN
-	1    6900 3400
+P 6900 3150
+F 0 "#PWR0109" H 6900 3000 50  0001 C CNN
+F 1 "+5V" H 6915 3323 50  0000 C CNN
+F 2 "" H 6900 3150 50  0001 C CNN
+F 3 "" H 6900 3150 50  0001 C CNN
+	1    6900 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -432,28 +381,145 @@ L power:GND #PWR0110
 U 1 1 62C93FAE
 P 7300 3800
 F 0 "#PWR0110" H 7300 3550 50  0001 C CNN
-F 1 "GND" H 7305 3627 50  0000 C CNN
+F 1 "GND" H 7400 3700 50  0000 C CNN
 F 2 "" H 7300 3800 50  0001 C CNN
 F 3 "" H 7300 3800 50  0001 C CNN
 	1    7300 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6900 3400 6900 3450
+	6900 3150 6900 3200
 Wire Wire Line
-	6900 3450 6950 3450
-Wire Wire Line
-	7650 3450 7700 3450
-Wire Wire Line
-	7700 3450 7700 3400
-Wire Wire Line
-	7300 3750 7300 3800
-Wire Notes Line
-	7850 2800 7850 4600
+	7700 3200 7700 3150
 Wire Notes Line
 	3100 2800 7850 2800
 Wire Notes Line
 	3100 4600 7850 4600
 Text Notes 6850 2900 0    50   ~ 0
 Regulator
+Wire Notes Line
+	7850 2800 7850 4600
+Wire Wire Line
+	3500 3150 3500 3100
+Connection ~ 3500 3150
+Wire Wire Line
+	3600 3200 3500 3200
+Wire Wire Line
+	3500 3200 3500 3150
+Wire Notes Line
+	6800 4050 7850 4050
+$Comp
+L Isolator:TLP785 U2
+U 1 1 62DA3003
+P 4400 3200
+F 0 "U2" H 4400 3525 50  0000 C CNN
+F 1 "TLP785" H 4400 3434 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4200 3000 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785" H 4400 3200 50  0001 L CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3100 4100 3100
+$Comp
+L power:GND #PWR0103
+U 1 1 62DA912F
+P 4050 3350
+F 0 "#PWR0103" H 4050 3100 50  0001 C CNN
+F 1 "GND" H 4055 3177 50  0000 C CNN
+F 2 "" H 4050 3350 50  0001 C CNN
+F 3 "" H 4050 3350 50  0001 C CNN
+	1    4050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3300 4050 3300
+Wire Wire Line
+	4050 3300 4050 3350
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 62DAAAE9
+P 4750 3050
+F 0 "#PWR0111" H 4750 2900 50  0001 C CNN
+F 1 "+3.3V" H 4765 3223 50  0000 C CNN
+F 2 "" H 4750 3050 50  0001 C CNN
+F 3 "" H 4750 3050 50  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3050 4750 3100
+Wire Wire Line
+	4750 3100 4700 3100
+Wire Wire Line
+	3500 3100 3700 3100
+Wire Wire Line
+	7500 4400 7500 4450
+$Comp
+L Device:R R4
+U 1 1 62DBD1E5
+P 3850 3100
+F 0 "R4" V 3643 3100 50  0000 C CNN
+F 1 "220Ω" V 3734 3100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3780 3100 50  0001 C CNN
+F 3 "~" H 3850 3100 50  0001 C CNN
+	1    3850 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Regulator_Linear:AP2204R-3.0 U1
+U 1 1 62D9966F
+P 7300 3200
+F 0 "U1" H 7300 3442 50  0000 C CNN
+F 1 "BP5293" H 7300 3351 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 7300 3425 50  0001 C CNN
+F 3 "https://akizukidenshi.com/catalog/g/gM-11187/" H 7300 3200 50  0001 C CNN
+	1    7300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3200 7700 3200
+Wire Wire Line
+	6900 3200 7000 3200
+Wire Wire Line
+	7300 3500 7300 3750
+$Comp
+L Device:C C1
+U 1 1 62DAA969
+P 6900 3500
+F 0 "C1" H 7015 3546 50  0000 L CNN
+F 1 "0.33μF" H 7015 3455 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 6938 3350 50  0001 C CNN
+F 3 "~" H 6900 3500 50  0001 C CNN
+	1    6900 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3200 6900 3350
+Connection ~ 6900 3200
+Wire Wire Line
+	6900 3650 6900 3750
+Wire Wire Line
+	6900 3750 7300 3750
+Connection ~ 7300 3750
+Wire Wire Line
+	7300 3750 7300 3800
+Wire Wire Line
+	7300 3750 7700 3750
+Wire Wire Line
+	7700 3750 7700 3650
+$Comp
+L Device:CP C2
+U 1 1 62DB7D88
+P 7700 3500
+F 0 "C2" H 7500 3550 50  0000 L CNN
+F 1 "47μF" H 7450 3400 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7738 3350 50  0001 C CNN
+F 3 "~" H 7700 3500 50  0001 C CNN
+	1    7700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3200 7700 3350
+Connection ~ 7700 3200
 $EndSCHEMATC
