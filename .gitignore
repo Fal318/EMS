@@ -1,11 +1,23 @@
-./*/*/substrate/*
+# Allow
+# Circuit
 !*.kicad_pcb
 !*.pro
 !*.sch
 !*.lib
+# Output
+!*.drl
+!*.gbr
+!*.gbrjob
+# Other
 !*.md
+
+# Deny
+*.ses
+*.net
+*.dcm
+*.rules
+*.sch-bak
+*.kicad_pcb-bak
 fp-info-cache
 sym-lib-table
-*.dcm
 *-rescue.lib
-Output/*
