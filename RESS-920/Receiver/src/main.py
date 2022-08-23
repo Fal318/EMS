@@ -1,5 +1,6 @@
 """
 This Program is made for RESS-Transmitter.
+https://github.com/Fal318/RESS
 """
 from typing import Dict
 from machine import Pin, UART, Timer
