@@ -1,25 +1,15 @@
+"""
+This Program is made for RESS-Transmitter. 
+"""
 from machine import Pin, UART, Timer
 
-led = Pin(25, Pin.OUT)
-
-ems = {
-    "in": Pin(21, Pin.IN, Pin.PULL_DOWN),
-    "out": Pin(20, Pin.OUT)
-}
-
-ems["out"].value(1)
-uart0 = UART(0, 19200)
+im920 = UART(0, 19200)
+ess_sw = Pin(2, Pin.IN, Pin.PULL_DOWN)
 
 
 def main(timer):
-    global led, ems
-    if ems["in"].value():
-        uart0.write("TXDA FF\r\n")
-        led.value(1)
-    else:
-        uart0.write("TXDA 00\r\n")
-        led.value(0)
-    uart0.readline()
+    im920.write("TXDA FF\r\n" if ess_sw.value() else "TXDA 00\r\n")
+    im920.readline()
 
 
 tim = Timer()

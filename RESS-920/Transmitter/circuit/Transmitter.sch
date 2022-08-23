@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue J3
+L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J3
 U 1 1 60B0F59A
 P 6600 3850
 F 0 "J3" H 6450 3250 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "~" H 6600 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue J4
+L Transmitter-rescue:Conn_01x10_Female-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J4
 U 1 1 60B10C64
 P 6700 3850
 F 0 "J4" H 6600 3250 50  0000 C CNN
@@ -50,7 +50,7 @@ NoConn ~ 6900 4050
 NoConn ~ 6900 4150
 NoConn ~ 6900 4350
 $Comp
-L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue J5
+L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J5
 U 1 1 60C2BF9E
 P 6800 4900
 F 0 "J5" H 6908 5081 50  0000 C CNN
@@ -61,7 +61,7 @@ F 3 "~" H 6800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:+5V-power-Transmitter-rescue-Transmitter-rescue #PWR01
+L Transmitter-rescue:+5V-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR01
 U 1 1 60C2C475
 P 6950 5450
 F 0 "#PWR01" H 6950 5300 50  0001 C CNN
@@ -72,7 +72,7 @@ F 3 "" H 6950 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:GND-power-Transmitter-rescue-Transmitter-rescue #PWR02
+L Transmitter-rescue:GND-power-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue #PWR02
 U 1 1 60C2CC2C
 P 7100 5100
 F 0 "#PWR02" H 7100 4850 50  0001 C CNN
@@ -89,7 +89,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 5000 7100 5000
 $Comp
-L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue J6
+L Transmitter-rescue:Conn_01x02_Male-Connector-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue J6
 U 1 1 60B16252
 P 6050 4900
 F 0 "J6" H 6200 4700 50  0000 R CNN
@@ -100,7 +100,7 @@ F 3 "~" H 6050 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transmitter-rescue:SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue SW1
+L Transmitter-rescue:SW_SPDT-Switch-Transmitter-rescue-Transmitter-rescue-Transmitter-rescue SW1
 U 1 1 60B2577F
 P 6650 5700
 F 0 "SW1" H 6650 5985 50  0000 C CNN

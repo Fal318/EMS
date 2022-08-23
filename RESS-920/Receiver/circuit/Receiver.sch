@@ -201,11 +201,11 @@ Wire Wire Line
 Wire Wire Line
 	6950 3600 6950 3650
 Text GLabel 4050 3450 0    50   Input ~ 0
-Out1
+Out
 Wire Wire Line
 	4050 3450 4150 3450
 Text GLabel 6550 3600 0    50   Input ~ 0
-Out1
+Out
 Wire Wire Line
 	6550 3600 6600 3600
 Connection ~ 6600 4500
@@ -315,10 +315,6 @@ Text Notes 7500 2550 2    50   ~ 0
 IM920-ADP
 NoConn ~ 4150 3150
 NoConn ~ 4150 3300
-Text GLabel 4050 3600 0    50   Input ~ 0
-Out2
-Wire Wire Line
-	4050 3600 4150 3600
 Wire Wire Line
 	6600 4500 6600 4650
 Wire Wire Line
@@ -392,4 +388,5 @@ Wire Notes Line
 	3700 4700 9000 4700
 Text Notes 8150 2550 0    50   ~ 0
 MountingHole
+NoConn ~ 4150 3600
 $EndSCHEMATC
