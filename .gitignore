@@ -1,23 +1,24 @@
 # Allow
 # Circuit
-!*.kicad_pcb
 !*.pro
-!*.sch
 !*.lib
+!*.kicad_pcb
+!*.kicad_sch
 # Output
 !*.drl
 !*.gbr
 !*.gbrjob
 # Other
 !*.md
-
 # Deny
 *.ses
 *.net
 *.dcm
+*.log
+*.zip
 *.rules
 *.sch-bak
+*-rescue.lib
 *.kicad_pcb-bak
 fp-info-cache
 sym-lib-table
-*-rescue.lib
