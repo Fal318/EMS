@@ -22,3 +22,12 @@
 *.kicad_pcb-bak
 fp-info-cache
 sym-lib-table
+# Mbed
+.mbedbuild
+cmake_build/
+BUILD/
+mbed-os/
+.mbed
+*.png
+CMakeLists.txt
+mbed-os.lib
