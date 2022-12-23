@@ -10,7 +10,6 @@ void Im920::send(char c) { _im920.write(&c, sizeof(c)); }
 
 void Im920::recv() {
   memset(buf, 0, sizeof(buf));
-  Timeout tout;
   for (int i = 0; i < 205; i++) {
     _im920.read(&buf[i], 1);
     if (buf[i] == '\n')
@@ -40,7 +39,7 @@ bool Im920::isReadAble() { return _im920.readable(); }
 
 void Im920::retValInit() {
   retVal.isSuccess = false;
-  retVal.node = 0;
+  retVal.node = 0; 
   retVal.id = 0;
   retVal.rssi = 0;
   memset(retVal.data, 0, sizeof(retVal.data));
