@@ -1,11 +1,33 @@
-./*/*/substrate/*
-!*.kicad_pcb
+# Allow
+# Circuit
 !*.pro
-!*.sch
 !*.lib
+!*.kicad_pcb
+!*.kicad_sch
+# Output
+!*.drl
+!*.gbr
+!*.gbrjob
+# Other
 !*.md
+# Deny
+*.ses
+*.net
+*.dcm
+*.log
+*.zip
+*.rules
+*.sch-bak
+*-rescue.lib
+*.kicad_pcb-bak
 fp-info-cache
 sym-lib-table
-*.dcm
-*-rescue.lib
-Output/*
+# Mbed
+.mbedbuild
+cmake_build/
+BUILD/
+mbed-os/
+.mbed
+*.png
+CMakeLists.txt
+mbed-os.lib
