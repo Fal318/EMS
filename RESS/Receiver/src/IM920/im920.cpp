@@ -32,8 +32,6 @@ void Im920::recv() {
   }
   retVal.dSize = count;
   retVal.isSuccess = (*endPtr) ? false : true;
-  if (retVal.isSuccess)
-    printf("recv: id=%d, data=%d\n", retVal.id, retVal.data[0]);
 }
 bool Im920::isReadAble() { return _im920.readable(); }
 
